@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>웹 사이트처럼 구조 만들어보기</title>
+        <style>
+            div{
+                border: 1px solid #ccc;
+            }
+            #container{
+                width: 960px;
+                padding: 20px;
+                margin: 0em auto;                
+                border-top: none;
+                border-bottom: none;
+            }
+            #header{
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            #contents{
+                width:620px;
+                padding: 20px;
+                float: left;
+                margin-bottom: 20px;
+            }
+            #sidebar{
+                float: right;
+                width: 220px;
+                padding:20px;
+                margin-bottom: 20px;
+            }
+            #footer{
+                clear:both;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>사이트 제목</h1>
+            </div>
+            <div id="sidebar">
+                <h2>사이드 바</h2>
+                <ul>
+                    <li>공무원의 신분과 정치적 중립성은 법률이 정하는 바에 의하여 보장된다.</li>
+                </ul>
+            </div>
+            <div id="contents">
+                <h2>본문</h2>
+                <p>모든 국민은 양심의 자유를 가진다. 국민경제의 발전을 위한 중요정책의 
+                수립에 관하여 대통령의 자문에 응하기 위하여 국민경제자문회의를 둘 수 있다.</p>
+
+                <p>국가는 평생교육을 진흥하여야 한다. 대통령은 국가의 안위에 관계되는 
+                중대한 교전상태에 있어서 국가를 보위하기 위하여 긴급한 조치가 필요하고 
+                국회의 집회가 불가능한 때에 한하여 법률의 효력을 가지는 명령을 발할 수 있다.</p>
+            </div>
+            <div id="footer">
+                <h2>푸터</h2>
+                <p>교육의 자주성·전문성·정치적 중립성 및 
+                대학의 자율성은 법률이 정하는 바에 의하여 보장된다.</p>
+            </div>
+        </div>
+    </body>
+</html>

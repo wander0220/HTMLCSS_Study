@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>list 예제 </title>
+        <style>
+            body{
+                text-align: justify;
+                padding: 2em;
+                background-color: #58D3F7;
+                width: 80%;
+            }
+            h1{
+                color:darkorange;
+                text-shadow: 3px 1px darkslategray;
+            }
+            h2{
+                margin-left: 1em;
+            }
+            .connect{
+                font-family: 나눔고딕, 돋움;
+                font-weight:bolder;
+                text-decoration: none;
+                background-color: rgb(255, 255, 126);
+                /*background:linear-gradient(to top,yellow,white 50%,green);*/
+                background:radial-gradient(circle at 20% 50%,white,yellow,rgb(162, 238, 162) 30%,#58D3F7);
+                width: 55%;
+                height: 5em;
+            }
+            .InConnect{
+                margin: 2em;  
+            }
+            .introduce{
+                background-image: url(https://i.pinimg.com/originals/a7/c9/85/a7c9859d3db22e51951b37aa779dc48a.png);
+                background-size:480px 100px;
+                background-repeat: no-repeat;
+            }
+            #menu{
+                border-style: solid;
+                border-width: 1px;
+                border-top-color: red;
+                border-left-color:sandybrown;
+                border-bottom-color: yellow;
+                border-right-color: green;
+                border-radius: 1em 3em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>김수현</h1>
+        <figure>
+             <img src="https://pbs.twimg.com/media/EQUo3xDUcAEiCG1?format=jpg&name=medium" 
+                 width="180" height="240" alt="김수현 이미지 대체">
+            <figcaption>Wendy is WANI 넘 귀여움</figcaption>
+        </figure>
+        
+        <h2>CONNECT</h2>
+        <p class="connect">
+            <span class="InConnect">email : s2018s26@e-mirim.hs.kr<br></span>
+            <a href="https://www.facebook.com/profile.php?id=100023542802906" target="_blank"class="InConnect">
+                facebook</a><br>
+            <a href="https://www.instagram.com/wander0221/" target="_blank" class="InConnect">
+                Instagram</a><br>
+            <a href="https://github.com/wander0220" target="_blank" class="InConnect">
+                Github</a><br>
+        </p>
+
+        <br><hr>
+        <h2>Menu</h2>
+        <div id="menu">
+            <ol>
+                <li><a href="./first.html">Who I am?</a></li>
+                <li><a href="#list2">Academic</a></li>
+                <li><a href="#list3">Skill</a></li>
+                <!--<li><iframe src="first.html">아닌데</li>!-->
+            </ol>
+        </div>
+
+        <br><hr>
+        <h2 id="list1">Who I am?</h2>
+        <p class="introduce">
+            미림여자정보과학고에 2018년에 입학해 곧 있으면 3학년이 됩니다.<br>
+            곧 있을 jsp 수업을 위해 웹 언어를 혼자 공부하고 있습니다.<br>
+            스티븐 유니버스와 정세랑 작가님, 이슬아 작가님을 사랑합니다.<br>
+            원목 1m 50cm인 책상을 가지는 게 현재 목표입니다.
+        </p>
+
+        <br><hr>
+        <h2 id="list2">Academic</h2>
+        <table border="1">
+            <caption><b>학력 사항</b></caption>
+            <thead>
+                <tr>
+                    <th>출신학교</th>
+                    <th>전공</th>
+                    <th>기간</th>
+                    <th>졸업구분</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>서울내발산초등학교</td>
+                    <td>(해당사항 없음)</td>
+                    <td>2009.3~2015.2</td>
+                    <td>졸업</td>
+                </tr>
+                <tr>
+                    <td>(서울)덕원중학교</td>
+                    <td>(해당사항 없음)</td>
+                    <td>2015.3~2018.2</td>
+                    <td>졸업</td>
+                </tr>
+                <tr>
+                    <td>미림여자정보과학고등학교</td>
+                    <td>뉴미디어 소프트웨어과</td>
+                    <td>2018.3~2021.1</td>
+                    <td>졸업 예정</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><hr>
+        <h2 id="list3">Skill</h2>
+        <!--<ul>
+            <li>배운 언어
+                <ol>
+                    <li>학년
+                        <ul>
+                            <li>C언어</li>
+                            <li>JAVA</li>
+                        </ul>
+                    </li>
+                    <li>학년
+                        <ul>
+                            <li>C++</li>
+                            <li>JAVA</li>
+                            <li>자료구조</li>
+                            <li>DBP</li>
+                            <li>리눅스</li>
+                            <li>안드로이드</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>사용 툴
+                <ul>
+                    <li>Edit plus</li>
+                    <li>Eclipse</li>
+                    <li>Visual Studio</li>
+                    <li>Visual Studio code</li>
+                    <li>Android Studio</li>
+                    <li>GitKraken</li>
+                </ul>
+            </li>
+        </ul>
+        -->
+
+        <p id="summary">다음 표는 김수현이 고등학교를 다니면서 수강한 정규과목 및 방과후 수업을
+            정리한 표 입니다.<br> 현재 미림여자정보과학고 뉴미디어소프트웨어과의 과목은 많이 수정되어
+            <mark>저같은 웹언어 초급자</mark>는 이젠 없을 것입니다.
+        </p>
+        <table border="1" aria-describedby="summary" class="skills">
+            <caption> 미림에 들어와 수강한 <strong>전공과목</strong></caption>
+            <colgroup>
+                <col span="1" style="background-color:rgb(144, 166, 214);">
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>학년</th>
+                    <th>수강과목</th>
+                    <th>사용 툴</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1학년</td>
+                    <td>C언어,JAVA</td>
+                    <td>Visual Studio, edit plus</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>2학년</td>
+                    <td>C++,JAVA,자료구조,DBP,리눅스,Android(방과후),Python(방과후)</td>
+                    <td>Visual Studio, Eclipse,SQL,CentOS, Android Studio</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
