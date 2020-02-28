@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-family: "Jeju Gothic", serif;
+}
+h1{
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 1.3em;
+}
+p {
+    font-size: 1.3em;
+    line-height: 2.5;
+}
+li{
+    font-size: 1em;
+    line-height: 2;
+}
+a {
+    text-decoration: none;
+    background-size: 50px 50px;
+}
+nav a:link, a:visited {
+    color: rgb(63, 63, 63);
+}
+nav a:active {
+    background-color: rgb(145, 145, 145);
+    background-size: 100% 300px;
+}
+
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    margin: 0;
+}
+nav {
+    height: 50px;
+    background: rgb(231, 231, 231);
+}
+#main-nav {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align:center;
+}
+#main-nav li {
+    display: inline-block;		
+    color: #fff;
+    font-family: "맑은 고딕", 돋움;
+    font-size: 0.9em;
+    margin: 5px 15px;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 40px;
+    background: rgb(231, 231, 231);
+    
+}
+footer p{
+    font-size: 12px;
+    color: rgb(63, 63, 63);
+    text-align: center;
+}
+
+section{
+    border: solid black;
+    width: 50%;
+    padding: 2em;
+    margin: 2em;
+}
